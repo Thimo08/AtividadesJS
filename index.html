@@ -5,16 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios de Fixação</title>
     <link rel="stylesheet" href="style.css">
-   
-
 </head>
 <body>
     <div class="container">
-        <h1>Exercícios de Fixação</h1>
-        <div class="exercicios">
-            <a href="Exercicio 1/exercicio1.html">Cálculo de Horas Extras</a><br><br>
-            <a href="Exercicio 2/exercicio2.html">Cálculo de Aumento</a><br><br>
-            <a href="Exercicio 3/exercicio3.html">Cálculo de Transporte de Colaboradores</a><br><br>
+        <div class="header">
+            <h1>Exercícios de Fixação</h1>
+            <p>Selecione um exercício para começar</p>
+        </div>
+        
+        <div class="exercises-grid">
+            <a href="Calculadora/exemplo1.html" class="exercise-card">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
+                </div>
+                <h2>Calculadora</h2>
+                <p>Ferramenta para cálculos matemáticos básicos</p>
+            </a>
+
+            <a href="Exercicio 1/exercicio1.html" class="exercise-card">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <h2>Cálculo de Horas Extras</h2>
+                <p>Calcule o valor das horas extras trabalhadas</p>
+            </a>
+
+            <a href="Exercicio 2/exercicio2.html" class="exercise-card">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                </div>
+                <h2>Cálculo de Aumento</h2>
+                <p>Calcule aumentos salariais e ajustes</p>
+            </a>
+
+            <a href="Exercicio 3/exercicio3.html" class="exercise-card">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12l-4 12H4z"/><circle cx="9" cy="19" r="2"/><circle cx="17" cy="19" r="2"/></svg>
+                </div>
+                <h2>Cálculo de Transporte</h2>
+                <p>Gestão de transporte para colaboradores</p>
+            </a>
+        </div>
+
+        <div class="footer">
             <p id="dataAtual"></p>
         </div>
     </div>
